@@ -16,7 +16,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".loginScreen"></activity>
+        <activity
+            android:name=".shopperView"
+            android:label="@string/title_activity_shopper_view"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".driverView"
+            android:label="@string/title_activity_driver_view"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".maintainerView"
+            android:label="@string/title_activity_maintainer_view"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".managerView"
+            android:label="@string/title_activity_manager_view"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
