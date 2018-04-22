@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">GDS</string>
+    <string name="title_activity_shopper_view">shopperView</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_driver_view">driverView</string>
+    <string name="title_activity_maintainer_view">maintainerView</string>
+    <string name="title_activity_manager_view">managerView</string>
 </resources>

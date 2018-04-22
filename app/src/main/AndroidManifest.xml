@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="nullsource.gds" >
+    package="nullsource.gds">
 
     <application
         android:allowBackup="true"
@@ -8,14 +8,30 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
-        <activity android:name=".MainActivity" >
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".shopperView"
+            android:label="@string/title_activity_shopper_view"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".driverView"
+            android:label="@string/title_activity_driver_view"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".maintainerView"
+            android:label="@string/title_activity_maintainer_view"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".managerView"
+            android:label="@string/title_activity_manager_view"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
